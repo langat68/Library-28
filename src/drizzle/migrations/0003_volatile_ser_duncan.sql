@@ -1,0 +1,1 @@
+ALTER TABLE "order_status" DROP COLUMN IF EXISTS "updated_at";

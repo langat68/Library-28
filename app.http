@@ -1,0 +1,53 @@
+
+GET http://localhost:8000/ok/
+
+
+        //orders 
+###
+GET http://localhost:8000/books
+###
+GET http://localhost:8000/author
+
+###
+POST http://localhost:8000/books
+Content-Type: application/json
+
+{
+"id": "11",
+"author": "Sakwa",
+"title": "Freedom",
+"publicationyear": "2023"
+
+}
+
+###
+DELETE http://localhost:8000/books
+Content-Type: application/json
+
+{
+"id": "6",
+"author": "Sakwa",
+"title": "Freedom",}
+
+
+
+###
+POST http://localhost:8000/orders
+Authorization:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJIZW5yeUBnbWFpbC5jb20iLCJyb2xlIjoiYWRtaW4iLCJleHAiOjE3MTgyODg5Nzl9.9aNbQtO6opDbQLkKoE4SvTr0_-FKjsTJ33OWVqNMSNY
+Content-Type: application/json
+
+
+
+###
+DELETE http://localhost:8000/orders/29
+
+
+
+
+                                   // state
+
+
+###
+GET http://localhost:8000/localhost:8000/author
+
+
